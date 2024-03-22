@@ -17,6 +17,11 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
+    "paths": {
+      "spinner-util": [
+        "./dist/spinner-util"
+      ]
+    },
     "module": "ES2022",
     "useDefineForClassFields": false,
     "lib": [
