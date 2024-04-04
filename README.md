@@ -10,6 +10,7 @@ Proyecto para crear librerias de npm transversales para los microfront del Siste
 
 Para crear una nueva libreria basta con ejecutar el comando `ng generate library nombre-lbreria`.
 Este comando generará una subcarpeta dentro de la carpeta projects, así:
+```
 └── utils_frontend
     └── projects
        └── nombre-libreria
@@ -17,6 +18,7 @@ Este comando generará una subcarpeta dentro de la carpeta projects, así:
              ├──public-api.ts
              └──lib
                 └──component files (.ts, .html, etc.)
+```
 
 En la subcarpeta `lib` se encuentran todos archivos que se desean integrar a la libreria y en `public-api.ts` se exportan aquellos que se van a publicar.
 
